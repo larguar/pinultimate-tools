@@ -27,16 +27,16 @@ async function start() {
 		type: 'list',
 		message: 'What would you like to do?',
 		choices: [
-			'View Faire Sales',
-			'View Faire Total',
+			'Faire: View Sales Table',
+			'Faire: View Sales Total',
 			'Exit'
 		]
 	});
 	switch (answer.menu) {
-		case 'View Faire Sales':
+		case 'Faire: View Sales Table':
 			viewFaireTable();
 			break;
-		case 'View Faire Total':
+		case 'Faire: View Sales Total':
 			viewFaireTotal();
 			break;
 		case 'Exit':
